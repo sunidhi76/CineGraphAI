@@ -46,31 +46,6 @@ flowchart TD
     I --> B
 ```
 
-## 🔍 Example Questions
-
-**Movie information**
-- Who directed The Matrix?
-- Which movies did Tom Hanks act in?
-- Who produced Apollo 13?
-- Who wrote Cloud Atlas?
-
-**Relationship verification**
-- Did Joel Silver produce The Matrix?
-- Did Joel Silver act in The Matrix?
-- Was The Matrix directed by Joel Silver?
-- Who reviewed Cloud Atlas?
-
-**Relationship discovery**
-- Which actors worked with Christopher Nolan?
-- Which movies feature both Tom Hanks and Meg Ryan?
-- Which directors has a particular actor worked with?
-
-**Recommendations**
-- Recommend movies related to The Matrix.
-- Why is this movie recommended?
-
-*Answers depend on the records and relationships available in the connected Neo4j database.*
-
 ## ⚙️ Installation and Setup
 
 ### Prerequisites
@@ -209,10 +184,3 @@ CineGraph_AI/
 - Recommendation results depend on the graph relationships and the implemented recommendation logic.
 - Local LLM response quality and speed depend on the selected model and available hardware.
 
-## 🎯 Project Objective
-
-CineGraph AI demonstrates how **Knowledge Graphs and Retrieval-Augmented Generation can work together** to create an interactive, explainable movie question-answering system. It combines structured graph retrieval, natural-language processing, local LLM inference, and visual exploration in a single application.
-
-## 📄 License
-
-This project is distributed under the license included in the repository. See [`LICENSE`](LICENSE) for details.
